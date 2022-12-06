@@ -10,6 +10,10 @@
 
 ## Skills and Proficiency:
 
+* HTML (Basic)
+* CSS (Basic)
+* GIT (Basic)
+* VSCode (Basic)
 
 
 ## Code Example:

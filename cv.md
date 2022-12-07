@@ -6,10 +6,11 @@
 * __GitHub:__ AliaksandraPaulovich
 
 ## About me:
-I have been a customer service manager for a long time. I have such qualities as diligence, responsibility, ability to work in a team, desire to develop and
+I have extensive experience working with clients in various fields. 
+I possess such qualities as diligence and responsibility. I am a good team worker. I have a desire to develop
 to study.
 
-I am 35 years old and I want to change my life.
+I want to change my profecion life by starting to study front-end development.
 
 ## Skills: 
 
@@ -17,21 +18,26 @@ I am 35 years old and I want to change my life.
 * CSS (Basic)
 * GIT (Basic)
 * VSCode (Basic)
-* Adobe Photoshop
-* Adobe Illustrator
-* Rhinoceros 3D
 
 ## Code Example:
+```
+function helloWorld() {
+   console.log('Hello World');
+}
+
+function summOfTwoNumbers(a, b) {
+   let result = a + b;
+   console.log(result);  
+}
+```
+
 
 
 ## Experience:
+https://aliaksandrapaulovich.github.io/rsschool-cv/cv 
 
 ## Education:
 University: Belarusian National Technical University: _Management, Marketing, Entrepreneurship_
 
-## Languages:
-* Russian - Native
-
-* English - A2
-
-* Germany - A1
+## English: 
+ Pre-intermediate

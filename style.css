@@ -1,3 +1,180 @@
 html {
    max-width: 1600px;
+   width: 100%;
+   margin: 0 auto;
+   font-family: 'Montserrat', sans-serif;
+}
+h1 {
+   font-size: 32px;
+   font-weight: 400;
+   margin: 10px 2px;
+}
+h2 {
+   font-size: 24px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin: 10px 10px;
+}
+h3,
+.h3 {
+   font-size: 16px;
+   font-weight: 400;
+   margin: 10px 10px;
+   padding-bottom:10px;
+}
+ul {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   list-style:none;
+   padding: 0;
+}
+li {
+   text-transform: lowercase;
+   list-style-type: none;
+  
+}
+.main_wrapper {
+   max-width: 1200px;
+    margin: 20px auto;
+    background-color: #FFF5EE;
+    border-radius: 20px;
+}
+/*```````````````````````` HEADER``````````````````````````*/
+.header{
+   display: flex;
+   width: 100%;
+   height: 200px;
+   flex-direction: column;
+}
+.nav {
+   display: flex; 
+   width: 100%;
+    height: 200px;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0;
+   margin: 0;
+}
+
+.menu-bar {
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.element {
+   font-weight: 700;
+}
+.self_img {
+   display: flex;
+   
+   
+}
+.self_name {
+   display: flex;
+   width: 70%;
+   flex-direction: column;
+   padding: 10px;
+}
+.small-text {
+
+}
+.self,
+.main_container {
+   display: flex;
+   padding: 10px;
+   flex-direction: row;
+   background-color: #f1fbfd
+}
+.section_left {
+   display: flex;
+   padding: 10px;
+   flex-direction: column;
+   background-color: #c9ece0;
+   width: 30%;
+  
+}
+.name,
+.about_me,
+.contacts,
+.skills,
+.code,
+.experience,
+.education,
+.english {
+   display: flex;
+   flex-direction: column;
+   background-color: #bbc9c4;
+   border-radius: 5px;
+   margin: 5px;
+}
+.contact_info {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   list-style:none;
+   margin-block-start: 0;
+   margin-block-end: 0;
+   padding: 0;
+}
+.section_right {
+   display: flex;
+   padding: 10px;
+   flex-direction: column;
+   width: 70%;
+   background-color: #c9ece0;
+}
+.skills_item {
+   display:flex;
+   justify-content: space-evenly;
+   flex-direction: row;
+}
+.skills_text {
+   display:flex;
+   justify-content: space-around;
+   text-transform:uppercase;
+   font-weight: 600;
+}
+.footer {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.year {
+   font-size: 28px;
+   font-weight: 800;
+   margin: 10px 2px;
+}
+.github {
+   margin-left: 1%;
+}
+.github_logo {
+   display: flex;
+   width: 43px;
+   height: 43px;
+}
+.rs_school {
+   margin-right: 1%;;
+}
+
+.rs_logo {
+   width: 100px;
+
+}
+
+.one{
+display: flex;
+width: 100px;
+height: 100px;
+}
+.two{
+   display: flex;
+   width: 50%;
+   height: 250px;
 }

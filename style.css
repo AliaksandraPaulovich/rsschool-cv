@@ -120,6 +120,7 @@ a {
    background-color: #9fc4b7 !important;
    border-radius: 5px;
    margin: 5px;
+   height: -webkit-fill-available;
 }
 .contact_info {
    display: flex;

@@ -12,7 +12,7 @@
    <body class="main_wrapper">
       <header class="header">
           <nav class="nav">
-            <ul class="menu-bar">
+            <ul class="header_list">
                <li class="element"><a href="#contacts" class="link">contacts</a></li>
                <li class="element"><a href="#skills" class="link">skills</a></li>
                <li class="element"><a href="#code" class="link">code</a></li>
@@ -26,41 +26,57 @@
          <div class="self" >
             <div class="section_left">
             <div class="self_img">
-               <img src="/DSC03083.jpg" alt="Aliaksandra Paulovich photo" width="240" height="320">
+               <img  class="avatar" src="/DSC03083.png" alt="Aliaksandra Paulovich photo">
             </div>
             </div>
             <div class="section_right">
    
-               <div class="name">
+               <div class="profile">
+                  <div class="profile_name">
                <h1> Aliaksandra Paulovich</h1>
-               <div>
-                  <p>Junior Front-end developer</p>
+               </div>
+               <div class="profile_content">
+                  <p class="profile_text">Junior Front-end developer</p>
                </div>
                </div>
                <div class="about_me">
                <h2> About me</h2>
-               <div class="small-text">
-                  <p>I have extensive experience working with clients in various fields. 
-                     I possess such qualities as diligence and responsibility. 
-                     I am a good team worker. I have a desire to develop to study.
-                  <br> 
-                  <br> 
-                  I want to change my profession life by starting to study front-end development.</p>
+               <pre class="about_me_text">
+      I have extensive experience working with clients in various fields.
+      I possess such qualities as diligence and responsibility.
+      I am a good team worker. I have a desire to develop to study.
+   <br> 
+      I want to change my profession life by to study front-end development.
+                  </pre>
                </div>
-            
-            </div>
             </div>
          </div>
          <div class="main_container">
          <div class="section_left">
            <div class="contacts" id="contacts">
             <h2>contacts</h2>
+         
             <ul class="contact_info">
-               <li class="li_contacts"><h3>Phone: +375 44 7952548</h3></li>
-               <li class="li_contacts"><h3>E-mail: aliaksandraaniska@gmail.com</h3></li>
-               <li class="li_contacts"><h3>Telegram: @sashasundukova</h3></li>
-               <li class="li_contacts"><h3>GitHub: AliaksandraPaulovich</h3></li>
-            </ul>
+               <li class="li_contacts">
+                  <img class="contacts_img" src="/location-svgrepo-com.svg" alt="Location">
+                  <p class="contacts_text">Belarus: Minsk</p>
+               </li>  
+               <li class="li_contacts">
+                  <img class="contacts_img" src="/phone-svgrepo-com.svg" alt="Phone">
+                  <p class="contacts_text">Phone: +375 44 7952548</p>
+               </li>
+               <li class="li_contacts">
+                  <img class="contacts_img" src="email-svgrepo-com.svg" alt="email">
+                  <p class="contacts_text">E-mail: s.sundukova@gmail.com</p>
+               </li>
+               <li class="li_contacts">
+                  <img class="contacts_img" src="/telegram-svgrepo-com.svg" alt="Telegram">
+                  <p class="contacts_text">Telegram: @sashasundukova</p>
+               </li>  <li class="li_contacts">
+                  <img class="contacts_img" src="/github-mark.png" alt="GitHub">
+                  <p class="contacts_text">GitHub: AliaksandraPaulovich</p>
+               </li>
+          </ul>
          </div>
       </div>
          <div class="section_right">
@@ -88,20 +104,27 @@
           <div class="code" id="code">
             <h2>code</h2>
             <pre class="code_text">
+               <code>
                function helloWorld() {
                   console.log('Hello World');
                }
-               
+               </code>
+               <code>
                function summOfTwoNumbers(a, b) {
                   let result = a + b;
                   console.log(result);  
                }
+               </code>
             </pre>
  
           </div>
           <div class="experience" id="experience">
             <h2>experience</h2>
-            
+            <div class="cv">
+            <li class="cv_project">
+               <a href="https://github.com/AliaksandraPaulovich/rsschool-cv">My CV project</a> 
+            </li>
+            </div>
           </div>
           <div class="education" id="education">
             <h2>education</h2>
@@ -117,7 +140,7 @@
       </main>
       <footer class="footer">  
          <div class="github">
-            <a href="https://github.com/AliaksandraPaulovich">
+           <a href="https://github.com/AliaksandraPaulovich"></a> 
             <img class="github_logo" src="/github-mark.png" alt="github">
             </a>
          </div>

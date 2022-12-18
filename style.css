@@ -1,5 +1,5 @@
 html {
-   max-width: 1600px;
+   max-width: 1200px;
    width: 100%;
    margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
@@ -7,20 +7,21 @@ html {
 h1 {
    font-size: 32px;
    font-weight: 400;
-   margin: 10px 2px;
+   margin: 10px 10px;
+   text-transform: uppercase;
 }
 h2 {
    font-size: 24px;
    font-weight: 500;
    text-transform: uppercase;
-   margin: 10px 10px;
+   margin-left: 20px;
+   margin-bottom: 5px;
 }
-h3,
-.h3 {
+h3 {
    font-size: 16px;
    font-weight: 400;
-   margin: 10px 10px;
-   padding-bottom:10px;
+   margin-left: 20px;
+
 }
 ul {
    display: flex;
@@ -34,29 +35,24 @@ li {
    list-style-type: none;
   
 }
+a {
+   color: rgb(42, 44, 42);
+
+}
 .main_wrapper {
    max-width: 1200px;
     margin: 20px auto;
-    background-color: #FFF5EE;
     border-radius: 20px;
 }
 /*```````````````````````` HEADER``````````````````````````*/
-.header{
-   display: flex;
-   width: 100%;
-   height: 200px;
-   flex-direction: column;
-}
-.nav {
+.nav { /*О, круто, задаем область для всех дочерних элементов 100% - круто!!!!!, но nav - не корневой тэг, у него есть родитель, стоит проверить какая ширина у него*/
    display: flex; 
-   width: 100%;
-    height: 200px;
    align-items: center;
-   justify-content: space-between;
    padding: 0;
    margin: 0;
+   width: 70%;
+   justify-content: flex-end;
 }
-
 .menu-bar {
    height: 100%;
    width: 100%;
@@ -65,13 +61,17 @@ li {
    justify-content: space-evenly;
    align-items: center;
 }
-.element {
-   font-weight: 700;
-}
 .self_img {
    display: flex;
-   
-   
+   width: 100%;
+   flex-wrap: nowrap;
+   align-content: flex-end;
+   justify-content: center; 
+}
+.avatar {
+   width: 300px;
+   height: 290px;
+   border-radius: 50%;
 }
 .self_name {
    display: flex;
@@ -79,25 +79,35 @@ li {
    flex-direction: column;
    padding: 10px;
 }
-.small-text {
-
+.profile_text {
+   display: flex;
+   text-align: justify;
 }
+.about_me_text {
+   font-family: 'Montserrat', sans-serif;
+   margin: 16px 0px 0px 0px; 
+}
+.header, /*ШИРИНАААА??????????????????????*/
 .self,
 .main_container {
    display: flex;
-   padding: 10px;
    flex-direction: row;
-   background-color: #f1fbfd
+   width: 100%;
+   justify-content: flex-end;
+   
 }
 .section_left {
    display: flex;
-   padding: 10px;
    flex-direction: column;
-   background-color: #c9ece0;
    width: 30%;
   
 }
-.name,
+.profile {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
 .about_me,
 .contacts,
 .skills,
@@ -107,7 +117,7 @@ li {
 .english {
    display: flex;
    flex-direction: column;
-   background-color: #bbc9c4;
+   background-color: #9fc4b7 !important;
    border-radius: 5px;
    margin: 5px;
 }
@@ -120,17 +130,52 @@ li {
    margin-block-end: 0;
    padding: 0;
 }
+.li_contacts {
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+.contacts_img {
+   height: 20px;
+   width: 20px;
+   margin: 0px 5px 0px 5px;
+}
+.contacts_text {
+   font-size: 14px;
+   font-weight: 600;
+   margin: 10px 10px;
+   color: rgb(82, 96, 96);
+   text-transform: none; 
+}
 .section_right {
    display: flex;
-   padding: 10px;
    flex-direction: column;
    width: 70%;
-   background-color: #c9ece0;
+   justify-content: space-between;
+}
+.header_list{
+   display:flex;
+   width: 100%;
+   justify-content: space-evenly;
+   flex-direction: row;
+   justify-content: space-between;
 }
 .skills_item {
    display:flex;
    justify-content: space-evenly;
    flex-direction: row;
+   margin-top: 15px;
+}
+.skills_img {
+   height: 80px;
+   width: 80px;
+}
+.element {
+   display:flex;
+   justify-content: space-around;
+   text-transform:lowercase;
+   font-weight: 600;
+   margin: 10px 30px;
 }
 .skills_text {
    display:flex;
@@ -138,43 +183,43 @@ li {
    text-transform:uppercase;
    font-weight: 600;
 }
+.code_text {
+   display: flex;
+   margin: 0px 0px;
+   flex-direction: column;
+}
+.cv_project {
+   text-transform: none !important;
+   font-size: 16px;
+   font-weight: 400;
+   margin: 16px 0px 16px 20px;
+   list-style: disc !important;
+}
 .footer {
    display: flex;
-   width: 100%;
    flex-direction: row;
    flex-wrap: nowrap;
    justify-content: space-between;
    align-items: center;
 }
 .year {
-   font-size: 28px;
-   font-weight: 800;
+   font-size: 24px;
+   font-weight: 400;
    margin: 10px 2px;
 }
-.github {
-   margin-left: 1%;
+.github,
+.rs_school {
+   margin: 15px 40px;
 }
 .github_logo {
    display: flex;
    width: 43px;
    height: 43px;
 }
-.rs_school {
-   margin-right: 1%;;
-}
+
 
 .rs_logo {
    width: 100px;
 
 }
 
-.one{
-display: flex;
-width: 100px;
-height: 100px;
-}
-.two{
-   display: flex;
-   width: 50%;
-   height: 250px;
-}
